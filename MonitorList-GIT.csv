@@ -1,0 +1,28 @@
+Target,TestType,PortNumber,Who,Metadata,ExpState
+http://LTChome.com,web,none,default,Retire House Anywhere,Positive
+http://Church.org,web,none,default,Church,Positive
+https://Boysand GirlsClub.org,web,none,default,Community Services,Positive
+http://StayatHome.com,web,none,default,SupportServices,Positive
+http://CommunityNews.com,web,none,default,CommunityNews,Positive
+http://CitySite.com,web,none,default,City Resources,Positive
+http://Transpo.com,web,none,default,Transportatoin Services,Positive
+http://Transpo.com?Reservations,web,none,default,Transportation Reservations,Positive
+http://SoccerLeague.com,web,none,default,Local sports,Positive
+http://BaseballLocal.com,web,none,default,Local sports,Positive
+http://Hockey.ca ,web,none,default,Local Sports,Positive
+https://ocsl.e2esoccer.com ,web,none,default,OCSL,Positive
+https://refcentre.com,web,none,default,Ref Centre Canada,Positive
+http://outlook.com,web,none,default,Outlook BEET,Positive
+http://work.com,web,none,default,Your Office connection,Positive
+10.0.0.1,machine,none,default,Gateway Present,Positive
+localhost&Dhcp,service,none,default,DHCP Running,Positive
+localhost&DNScache,service,none,default,DNS cache present,Positive
+localhost&EventSystem,service,none,default,Event Logs running,Positive
+localhost&XYZSecurity,service,none,default,XYZ Security Running,Positive
+localhost&XYZSecurity&3,process,none,default,<=3 XYZ Security Running,Positive
+localhost&powershell*&1,process,none,default,<=1  PowerShell Running,Positive
+localhost&FahCore_a7&1,process,none,default,<=1 FAHcore Running,Positive
+localhost&svckost,process,none,default,Imitation svcHost!,Negative
+localhost&scvhost,process,none,default,Imitation svcHost!,Negative
+localhost&svchosl,process,none,default,Imitation svcHost!,Negative
+localhost&svchoct,process,none,default,Imitation svcHost!,Negative

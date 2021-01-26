@@ -1,0 +1,2 @@
+Server,To,CC,From,Port,EmailID,Cert
+<YourSMTPserverDomain>,EmailAddressTo,"EmailAddress,EmailAddress",EmailAddressFrom,587,SignonID,E=EmailCertName

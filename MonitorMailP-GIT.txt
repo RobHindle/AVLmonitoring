@@ -1,0 +1,8 @@
+#NOTE:  Internal SMTP servers may not require any ID Password to receive a necessary Connection 
+# If you need an ID paswd to get to your SMTP server then using CMS tools and an available certificate to reference ...
+# The notice file idicates an ID to be used as well as the From To CC and other Email SMTP info
+
+  $ICSV = Import-Csv -Delimiter "," -Path "$PSScriptRoot\MonitorNotice.csv" 
+   $Cert     = $ICSV.Cert
+   $pswd = read-host -Prompt "Password" -AsSecureString
+   Protect-CMSmessage -content $pswd -to "$Cert" -OutFile "$PSScriptRoot\MonitorMailP.txt" 
